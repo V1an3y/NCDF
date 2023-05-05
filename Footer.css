@@ -1,0 +1,38 @@
+footer{
+	background-color: #60434E;
+	color: black;
+}
+.container{
+	max-width: 1000px;
+	margin: 0 auto;
+	padding: 0 20px;
+}
+.footer-content{
+	display: flex;
+	flex-wrap: wrap;
+}
+.footer-section{
+	width: 100px;
+	padding: 20px;
+	box-sizing: border-box;;
+}
+.about{
+	text-align: center; 
+}
+.about h2{
+	margin-bottom: 25px;
+}
+.contact-links{
+	display: flex;
+	justify-content: center;
+}
+.contact-links a{
+	display: inline-block;
+	color: red;
+	font-size: 24px;
+	margin: 0 20px;
+	transition: all 0.3s ease;
+}
+.contact-links a:hover{
+	transform: translateY(-10px);
+}

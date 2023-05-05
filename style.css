@@ -1,0 +1,19 @@
+body{
+	background-color: #596987;
+}
+.center{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+	width: 500px;
+}
+table{
+	border-collapse: collapse;
+	width: 100%;
+	margin-bottom: 20px;
+}
+th,td{
+	text-align: left;
+	padding: 8px;
+}
